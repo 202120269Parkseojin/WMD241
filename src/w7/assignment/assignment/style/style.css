@@ -68,13 +68,15 @@ h1 {
 .category {
     display: flex;
     flex-wrap: wrap;
-    padding-block: 30px ;
-    padding-inline: 100px;
+    font-weight: 300;
+    font-size: 120%;
+    padding-block: 90px;
+    padding-inline: 160px;
     /* gap: 1rem; */
 }
 
 .list-item {
-    min-width: 500px;
+    min-width: 550px;
     flex-grow: 1;
     flex-basis: 0;
     column-gap: 70rem;
@@ -93,7 +95,7 @@ h1 {
     column-gap: 100px;
     row-gap: 30rem;
     padding-block: 15px 100px;
-    padding-inline: 80px;
+    padding-inline: 90px;
 }
 
 .footer__column {
