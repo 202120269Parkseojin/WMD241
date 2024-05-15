@@ -9,7 +9,6 @@
   font-size: 1.125rem;
   font-weight: 400;
   line-height: 150%;
-  background-color: oklch(1 0 0);
   border: 1px solid oklch(0.5 0 0);
   border-radius: 0.75rem;
 }
