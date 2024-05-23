@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple js</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      .container {
+        max-width: 75rem;
+        margin-inline: auto;
+        padding: 3rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-auto-rows: 1fr;
+        background-color: oklch(0.9 0 0);
+        gap: 1.5rem;
+      }
+
+      .card {
+        padding: 16px;
+        background-color: oklch(0.9 0.2 240);
+        transition: all 300ms ease-in-out;
+      }
+
+      .card:hover {
+        background-color: oklch(0.9 0.2 120);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">Lorem.</div>
+      <div class="card">Veniam, laboriosam.</div>
+      <div class="card">Placeat, perspiciatis earum?</div>
+      <div class="card">Nobis natus sed velit.</div>
+      <div class="card">Tempore repudiandae iusto officiis assumenda?</div>
+      <div class="card">Fugiat obcaecati sapiente pariatur iusto tempora?</div>
+      <div class="card">
+        Consectetur aperiam voluptate architecto adipisci quibusdam rerum.
+      </div>
+      <div class="card">
+        Rerum accusamus dignissimos illo et, expedita tenetur quisquam.
+      </div>
+      <div class="card">
+        Est, perferendis maiores? Iusto eaque tempore velit perferendis
+        inventore.
+      </div>
+      <div class="card">
+        Eaque corrupti laborum quam ipsum laboriosam debitis in adipisci
+        quaerat!
+      </div>
+    </div>
+  </body>
+</html>
