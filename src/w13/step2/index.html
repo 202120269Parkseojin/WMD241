@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lottie Embeding</title>
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+    <script>
+      LottieInteractivity.create({
+        player: "#lottie-2",
+        mode: "cursor",
+        actions: [
+          {
+            type: "click",
+            forceFlag: false,
+          },
+        ],
+      });
+    </script>
+    <!-- script는 하나만 있으면 됨 -->
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="section">
+      <div class="container">
+        <h1>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae,
+          beatae!
+        </h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam saepe
+          harum optio ducimus non, rerum illum reiciendis ipsa quas aut,
+          provident quae vitae quis itaque sed est corporis architecto deleniti
+          consectetur voluptate eius delectus rem sapiente? Commodi quaerat
+          natus explicabo, officia, vitae laboriosam cum harum iusto quod illo
+          rem illum!
+        </p>
+
+        <dotlottie-player
+          id="lottie-1"
+          class="lottie"
+          src="https://lottie.host/8c92ff67-0c1e-46e7-820a-12aade4a4fab/kUMxLNnB98.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+        ></dotlottie-player>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed unde id,
+          voluptatem sint a eveniet dolor dolorum itaque ducimus nobis.
+        </p>
+        <dotlottie-player
+          id="lottie-2"
+          class="lottie"
+          src="./assets/lottie-downloded.json"
+          background="transparent"
+          speed="1"
+        ></dotlottie-player>
+      </div>
+    </div>
+  </body>
+</html>
